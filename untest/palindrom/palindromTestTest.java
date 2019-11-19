@@ -21,6 +21,7 @@ public class palindromTestTest {
 	
 	}	
 	@Test
+	//check true
 	public void test() {		
 		palindrom test = new palindrom();
 		assertTrue(test.isPal(1221));

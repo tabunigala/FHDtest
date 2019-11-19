@@ -22,7 +22,7 @@ public class palindromTest {
 	}	
 	@Test
 	public void testIsPal() {
-		
+		//for 100
 		palindrom test = new palindrom();
 		for(int i=0;i<100;i++)
 		assertFalse(test.isPal(i));
