@@ -90,7 +90,7 @@ public class palindrom {
         { 
         	if(obj.isPal(mas[i]))
         	{
-        		System.out.print(mas[i] + " ");
+        		System.out.print(mas[i] + " It is palindrome");
         		}
         	}
         scanner.close();
