@@ -9,7 +9,7 @@ public class palindromTest {
 //Commit_Testing
 	@BeforeClass
 	public static void beforeClass(){
-		System.out.println("Before PalindromTest.class");
+		System.out.println("Before PalindromTestclass");
 	}
 	@AfterClass
 	
@@ -25,7 +25,11 @@ public class palindromTest {
 		
 		palindrom test = new palindrom();
 		assertTrue(test.isPal(1221));
-		for(int i=0;i<10;i++)
+	}
+	
+        public void testNotPal() {
+       palindrom test = new palindrom();
+		for(int i=0;i<100;i++)
 		assertFalse(test.isPal(i));
 	}
 }
