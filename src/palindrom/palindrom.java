@@ -4,12 +4,14 @@ import java.util.Scanner;
 
 public class palindrom {
 	public boolean isPal(int a){
+		//comments for the program
 		int b,c, e;
 		boolean isPolindrome = false;
 		//these are the changes made by me 
 		//The changes has no effect on the program 
 		if(a > 9999 && a < 100000)
         {           
+			//xyz
 				b = a / 10000;
                 a = a % 10000;
                 c = a / 1000;
