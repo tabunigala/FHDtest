@@ -6,7 +6,7 @@ import org.junit.*;
 
 
 public class palindromTest {
-//Done
+//Done..
 	@BeforeClass
 	public static void beforeClass(){
 		System.out.println("Before PalindromTestclass");
