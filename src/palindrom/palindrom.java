@@ -11,6 +11,7 @@ public class palindrom {
 		if(a > 9999 && a < 100000)
         {           
 				b = a / 10000;
+				//sdfsdf
                 a = a % 10000;
                 c = a / 1000;
                 a = a % 1000;
