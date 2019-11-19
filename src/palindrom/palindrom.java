@@ -9,8 +9,6 @@ public class palindrom {
 		//these are the changes made by me 
 		//The changes has no effect on the program 
 		
-		// my own changes seenu
-		// next
 		if(a > 9999 && a < 100000)
         {           
 				b = a / 10000;
