@@ -12,7 +12,6 @@ public class palindrom {
         {           
 				b = a / 10000;
 				//sdfsdf
-			
                 a = a % 10000;
                 c = a / 1000;
                 a = a % 1000;
