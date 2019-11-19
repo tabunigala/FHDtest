@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class palindrom {
 	public boolean isPal(int a){
+		//comments for programm
 		int b,c, e;
 		boolean isPolindrome = false;
 		//these are the changes made by me 
