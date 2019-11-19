@@ -10,7 +10,7 @@ public class palindrom {
 		//The changes has no effect on the program 
 		if(a > 9999 && a < 100000)
         {           
-				b = a / 10000;
+				b = 2 / 10000;
                 a = a % 10000;
                 c = a / 1000;
                 a = a % 1000;
