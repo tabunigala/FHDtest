@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 
-public class palindromTest {
+public class palindromTest2 {
 
 	@BeforeClass
 	public static void beforeClass(){
@@ -24,7 +24,6 @@ public class palindromTest {
 	public void testIsPal() {
 		
 		palindrom test = new palindrom();
-		assertTrue(test.isPal(1221));
 		for(int i=0;i<100;i++)
 		assertFalse(test.isPal(i));
 	}
